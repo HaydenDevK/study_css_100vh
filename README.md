@@ -1,26 +1,6 @@
-# Quasar App (100vh)
+# STUDY_CSS_100vh
 
-A Quasar Framework app
+## 개요
+- IOS Chrome, Android Chrome에서 `height: 100vh`, `height: 100%` 크로스 브라우징 연구
 
-## Install the dependencies
-```bash
-npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-### Lint the files
-```bash
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+## 결론 요약

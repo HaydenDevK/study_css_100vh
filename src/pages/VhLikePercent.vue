@@ -24,7 +24,7 @@ function setScreenSize () {
 window.addEventListener('resize', () => setScreenSize())
 
 export default {
-  name: '100vhLike100p',
+  name: 'vhLikePercent',
   mounted () {
     this.setScreenSize()
   },

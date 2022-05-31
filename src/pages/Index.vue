@@ -1,11 +1,93 @@
 <template>
-  <q-page class="flex flex-center">
-    <div style="height:100%; background: red; display:flex; flex-direction: column; justify-content: space-between;">
-      <div>100% 시작</div>
-      <q-input label="keyboard"/>
-      <div>100% 끝</div>
-    </div>
-  </q-page>
+  <div style="background: orange">
+    시작
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <q-btn @click="$router.push({ path: '/percent' })">100p</q-btn>
+    <q-btn @click="$router.push({ path: '/100vh' })">100vh</q-btn>
+    <q-btn @click="$router.push({ path: '/100vhLike100p' })">100vhLike100p</q-btn>
+    <q-btn @click="$router.push({ path: '/100dvh' })">100dvh</q-btn>
+    <q-btn @click="$router.push({ path: '/100svh' })">100svh</q-btn>
+    <q-btn @click="$router.push({ path: '/100lvh' })">100lvh</q-btn>
+    끝
+  </div>
 </template>
 
 <script>
@@ -14,31 +96,4 @@ export default {
 }
 </script>
 
-<style>
-html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
-}
-
-#q-app {
-  height: 100%;
-}
-
-.q-page-container {
-  height: 100%;
-}
-
-.q-layout {
-  min-height: unset;
-  height: 100%;
-}
-
-.q-page {
-  min-height: unset;
-  height: 100%;
-}
-
-</style>
+<style scoped></style>

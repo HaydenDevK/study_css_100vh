@@ -3,14 +3,16 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '/', component: () => import('pages/Index.vue') },
-      { path: '/100vh', component: () => import('pages/100vh.vue') },
+      { path: '/', component: () => import('src/pages/Index.vue') },
+      { path: '/percent', component: () => import('src/pages/Percent.vue') },
+      { path: '/vh', component: () => import('pagsrc/pages/Vh.vue')},
       {
-        path: '/100vhLike100p',
-        component: () => import('pages/100vhLike100p.vue')
+        path: '/VhLikePercent',
+        component: () => import('src/pages/Vh.vue')
       },
-      { path: '/test', component: () => import('pages/test.vue') },
-      { path: '/100dvh', component: () => import('pages/100dvh.vue') }
+      { path: '/dvh', component: () => import('pages/Dvh.vue') },
+      { path: '/svh', component: () => import('src/pages/Svh.vue') },
+      { path: '/lvh', component: () => import('pages/Lvh.vue') }
     ]
   },
 
@@ -21,5 +23,4 @@ const routes = [
     component: () => import('pages/Error404.vue')
   }
 ]
-
 export default routes

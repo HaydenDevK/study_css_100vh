@@ -5,10 +5,10 @@ const routes = [
     children: [
       { path: '/', component: () => import('src/pages/Index.vue') },
       { path: '/percent', component: () => import('src/pages/Percent.vue') },
-      { path: '/vh', component: () => import('pagsrc/pages/Vh.vue')},
+      { path: '/vh', component: () => import('src/pages/Vh.vue') },
       {
-        path: '/VhLikePercent',
-        component: () => import('src/pages/Vh.vue')
+        path: '/vhLikePercent',
+        component: () => import('src/pages/VhLikePercent.vue')
       },
       { path: '/dvh', component: () => import('pages/Dvh.vue') },
       { path: '/svh', component: () => import('src/pages/Svh.vue') },

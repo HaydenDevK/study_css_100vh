@@ -81,11 +81,11 @@
     <br />
     <br />
     <q-btn @click="$router.push({ path: '/percent' })">100p</q-btn>
-    <q-btn @click="$router.push({ path: '/100vh' })">100vh</q-btn>
-    <q-btn @click="$router.push({ path: '/100vhLike100p' })">100vhLike100p</q-btn>
-    <q-btn @click="$router.push({ path: '/100dvh' })">100dvh</q-btn>
-    <q-btn @click="$router.push({ path: '/100svh' })">100svh</q-btn>
-    <q-btn @click="$router.push({ path: '/100lvh' })">100lvh</q-btn>
+    <q-btn @click="$router.push({ path: '/vh' })">100vh</q-btn>
+    <q-btn @click="$router.push({ path: '/vhLikePercent' })">100vhLike100p</q-btn>
+    <q-btn @click="$router.push({ path: '/dvh' })">100dvh</q-btn>
+    <q-btn @click="$router.push({ path: '/svh' })">100svh</q-btn>
+    <q-btn @click="$router.push({ path: '/lvh' })">100lvh</q-btn>
     끝
   </div>
 </template>

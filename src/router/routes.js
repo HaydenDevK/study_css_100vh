@@ -13,7 +13,8 @@ const routes = [
       { path: "/dvh", component: () => import("pages/Dvh.vue") },
       { path: "/svh", component: () => import("src/pages/Svh.vue") },
       { path: "/lvh", component: () => import("pages/Lvh.vue") },
-      { path: "/test1", component: () => import("pages/test1.vue") }
+      { path: "/test1", component: () => import("pages/test1.vue") },
+      { path: "/test2", component: () => import("pages/test2.vue") }
     ]
   },
 

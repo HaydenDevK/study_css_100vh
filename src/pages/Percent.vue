@@ -1,8 +1,16 @@
 <template>
   <q-page class="flex flex-center">
-    <div style="height:100%; background: red; display:flex; flex-direction: column; justify-content: space-between;">
+    <div
+      style="
+        height: 100%;
+        background: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      "
+    >
       <div>100% 시작</div>
-      <q-input label="keyboard"/>
+      <q-input label="keyboard" />
       <div>100% 끝</div>
     </div>
   </q-page>
@@ -10,7 +18,7 @@
 
 <script>
 export default {
-  name: 'percent'
+  name: "percent"
 }
 </script>
 
@@ -40,5 +48,4 @@ body {
   min-height: unset;
   height: 100%;
 }
-
 </style>

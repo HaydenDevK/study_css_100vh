@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'svh'
+  name: "svh"
 }
 </script>
 

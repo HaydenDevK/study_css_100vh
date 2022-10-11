@@ -61,7 +61,6 @@ function setScreenSize () {
 }
 window.addEventListener('resize', () => setScreenSize())
 
-
 export default {
   name: "test1",
   mounted () {

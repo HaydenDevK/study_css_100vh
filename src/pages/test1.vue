@@ -10,7 +10,6 @@
         display: grid;
         place-items: center;
         height: 100dvh;
-        height: 100vh;
       "
     >
       <div style="width: 100%; height: 100%; background-color: white;"></div>

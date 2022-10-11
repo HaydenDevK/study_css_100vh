@@ -2,13 +2,14 @@
     <div
       style="
         width: 100vw;
-        background-color: red;
+        height: calc(var(--vh, 1vh) * 100);
+        min-height: 509px;
         padding: 0px 24px 121px 24px;
-        position: relative;
-        overflow: auto;
         display: grid;
         align-content: center;
-        height: calc(var(--vh, 1vh) * 100);
+        overflow: auto;
+        position: relative;
+        background-color: red;
       "
     >
       <div style="

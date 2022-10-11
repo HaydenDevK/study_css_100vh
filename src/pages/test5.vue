@@ -32,9 +32,6 @@
           <q-input label="keyboard" />
           <q-input label="keyboard" />
           <q-input label="keyboard" />
-          <q-input label="keyboard" />
-          <q-input label="keyboard" />
-          <q-input label="keyboard" />
         </div>
       </div>
       <button

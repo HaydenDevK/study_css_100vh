@@ -10,7 +10,7 @@
         z-index: 99999;
 
         display: grid;
-        grid-template-rows: 1fr max-content 2fr 94px;
+        grid-template-rows: 1fr max-content 2fr 74px;
         place-items: center;
       "
     >

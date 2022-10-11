@@ -4,7 +4,7 @@
         width: 100vw;
         background-color: red;
         padding: 0 24px;
-        grid-template-rows: 1fr 152px 464px 1fr 121px;
+        grid-template-rows: 1fr 152px 300px 1fr 121px;
         position: relative;
         overflow: auto;
         display: grid;

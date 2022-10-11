@@ -68,9 +68,11 @@ export default {
   },
   methods: {
     setScreenSize () {
-      const vh = window.innerHeight * 0.01
-      document.documentElement.style.setProperty('--vh', `${vh}px`)
-      alert(vh)
+      setTimeout(() => {
+        const vh = window.innerHeight * 0.01
+        document.documentElement.style.setProperty('--vh', `${vh}px`)
+        alert(vh)
+      }, 1000)
     }
   }
 }

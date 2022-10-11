@@ -3,7 +3,7 @@
       style="
         width: 100vw;
         height: 100vh;
-        background-color: ${p => p.theme.colors.white};
+        background-color: red;
 
         position: fixed;
         top: 0;
@@ -22,6 +22,7 @@
         text-align: center;
         color: ${p => p.theme.colors.secondary};
         margin: 0;
+        background: #FFFFFF
       ">
         리치고 MAS는
         <br />
@@ -35,6 +36,7 @@
         padding: 0 24px 20px 24px;
         position: fixed;
         bottom: 0;
+        background-color: green;
       ">
         확인
       </button>

@@ -80,7 +80,10 @@
         height: 100vh;
         text-align: center;
       "
-      > popup
+      >
+        popup
+        <button @click="setUnLockScroll">UnLock</button>
+        <button @click="setLockScroll">Lock</button>
       </div>
     </div>
 </template>
@@ -95,16 +98,23 @@ export default {
   },
   mounted () {
     setTimeout(() => {
-      this.setScroll()
+      this.setLockScroll()
     }, 3000)
   },
   methods: {
-    setScroll () {
+    setLockScroll () {
       this.scrollPosition = window.pageYOffset
       document.body.style.overflow = 'hidden'
       document.body.style.position = 'fixed'
       document.body.style.top = `-${this.scrollPosition}px`
       document.body.style.width = '100%'
+    },
+    setUnLockScroll () {
+      document.body.style.removeProperty('overflow')
+      document.body.style.removeProperty('position')
+      document.body.style.removeProperty('top')
+      document.body.style.removeProperty('width')
+      window.scrollTo(0, this.scrollPosition)
     }
   }
 }

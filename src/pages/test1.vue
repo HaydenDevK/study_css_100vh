@@ -9,9 +9,7 @@
         overflow: auto;
         display: grid;
         place-items: center;
-        height: 100vh;
-        height: -webkit-fill-available;
-        height: fill-available;
+        height: calc(var(--vh, 1vh) * 100);
       "
     >
       <div style="width: 100%; height: 100%; background-color: white;"></div>
@@ -57,8 +55,24 @@
 </template>
 
 <script>
+function setScreenSize () {
+  const vh = window.innerHeight * 0.01
+  document.documentElement.style.setProperty('--vh', `${vh}px`)
+}
+window.addEventListener('resize', () => setScreenSize())
+
+
 export default {
-  name: "test1"
+  name: "test1",
+  mounted () {
+    this.setScreenSize()
+  },
+  methods: {
+    setScreenSize () {
+      const vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+    }
+  }
 }
 </script>
 

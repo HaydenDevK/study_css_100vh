@@ -14,22 +14,21 @@
         place-items: center;
       "
     >
-      <div></div>
+      <div style="background: #FFFFFF"></div>
       <div style="
         font-weight: 700;
         font-size: 20px;
         line-height: 32px;
         text-align: center;
-        color: ${p => p.theme.colors.secondary};
         margin: 0;
-        background: #FFFFFF
+        background-color: pink;
       ">
         리치고 MAS는
         <br />
         PC에서 사용가능합니다
       </div>
-      <div></div>
-      <div></div>
+      <div style="background: #FFFFFF"></div>
+      <div style="background: #FFFFFF"></div>
       <button style="
         width: 100%;
         height: 74px;

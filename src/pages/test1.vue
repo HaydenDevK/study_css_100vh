@@ -4,7 +4,7 @@
         width: 100vw;
         background-color: red;
         padding: 0 24px;
-        grid-template-rows: 1fr 152px 444px 1fr 121px;
+        grid-template-rows: calc(((var(--vh, 1vh) * 100) - 717px) / 2) 152px 444px calc(((var(--vh, 1vh) * 100) - 717px) / 2) 121px;
         position: relative;
         overflow: auto;
         display: grid;
@@ -73,7 +73,7 @@ export default {
         const vh = window.innerHeight * 0.01
         document.documentElement.style.setProperty('--vh', `${vh}px`)
         alert(vh)
-      }, 1000)
+      }, 100)
     }
   }
 }

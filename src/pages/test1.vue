@@ -51,6 +51,7 @@
           outline: 0;
           background-color: green;
           cursor: pointer;
+          visibility: hidden;
         "
       >
         footer

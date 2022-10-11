@@ -59,12 +59,12 @@
 </template>
 
 <script>
-window.addEventListener('resize', () => this.setScreenSize())
 
 export default {
   name: "test1",
   mounted () {
     this.setScreenSize()
+    window.addEventListener('resize', () => this.setScreenSize())
   },
   methods: {
     setScreenSize () {

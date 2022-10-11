@@ -3,11 +3,11 @@
       style="
         width: 100vw;
         background-color: red;
-        padding: 0 24px;
+        padding: 0px 24px 121px 24px;
         position: relative;
         overflow: auto;
         display: grid;
-        place-items: center;
+        align-content: center;
         height: calc(var(--vh, 1vh) * 100);
       "
     >
@@ -17,7 +17,6 @@
         background-color: white;
         display: grid;
         grid-template-rows: 88px 300px;
-        padding-bottom: 121px;
       ">
         <div style="width: 100%; height: 100%; background-color: yellow;">title</div>
         <div

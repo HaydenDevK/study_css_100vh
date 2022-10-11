@@ -29,7 +29,7 @@
       </div>
       <div></div>
       <div></div>
-      <button styled="
+      <button style="
         width: 100%;
         height: 74px;
         padding: 0 24px 20px 24px;

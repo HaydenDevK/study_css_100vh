@@ -3,7 +3,7 @@
       style="
         width: 100vw;
         background-color: red;
-        padding: 63px 24px 0 24px;
+        padding: 0 24px;
         grid-template-rows: 1fr 152px 464px 1fr 121px;
         position: relative;
         overflow: auto;

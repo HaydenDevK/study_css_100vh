@@ -2,8 +2,6 @@
     <div
       style="
         width: 100vw;
-        height: 100vh;
-        height: 100dvh; // IOS
         background-color: red;
         padding: 63px 24px 0 24px;
         grid-template-rows: 1fr 152px 464px 1fr 121px;
@@ -11,6 +9,8 @@
         overflow: auto;
         display: grid;
         place-items: center;
+        height: 100dvh;
+        height: 100vh;
       "
     >
       <div style="width: 100%; height: 100%; background-color: white;"></div>

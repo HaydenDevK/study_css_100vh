@@ -14,6 +14,12 @@
         place-items: center;
       "
     >
+      <div
+        style="position: fixed; top: 0; right: 0; width: 30px; height: 30px; background: #FFFFFF"
+        @click='toggle = !toggle'
+      >
+        click
+      </div>
       <div style="width: 100%; height: 100%; background-color: white;"></div>
       <div
         style="
@@ -66,7 +72,12 @@
 
 <script>
 export default {
-  name: "test1"
+  name: "test1",
+  data () {
+    return {
+      toggle: true
+    }
+  }
 }
 </script>
 

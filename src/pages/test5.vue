@@ -12,13 +12,13 @@
       "
     >
       <div style="
-        width: 100%
-        height: 100%
-        background-color: white
-        display: grid
-        grid-template-rows: 88px 300px
-        padding-bottom: 121px"
-      >
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-rows: 88px 300px;
+        padding-bottom: 121px;
+      ">
         <div style="width: 100%; height: 100%; background-color: yellow;">title</div>
         <div
           style="

@@ -9,8 +9,9 @@
         overflow: auto;
         display: grid;
         place-items: center;
-        height: 100dvh;
         height: 100vh;
+        height: -webkit-fill-available;
+        height: fill-available;
       "
     >
       <div style="width: 100%; height: 100%; background-color: white;"></div>

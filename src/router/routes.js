@@ -15,7 +15,8 @@ const routes = [
       { path: "/lvh", component: () => import("pages/Lvh.vue") },
       { path: "/test1", component: () => import("pages/test1.vue") },
       { path: "/test2", component: () => import("pages/test2.vue") },
-      { path: "/test3", component: () => import("pages/test3.vue") }
+      { path: "/test3", component: () => import("pages/test3.vue") },
+      { path: "/test4", component: () => import("pages/test4.vue") }
     ]
   },
 

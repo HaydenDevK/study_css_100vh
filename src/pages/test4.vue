@@ -94,7 +94,9 @@ export default {
     }
   },
   mounted () {
-    this.setScroll()
+    setTimeout(() => {
+      this.setScroll()
+    }, 3000)
   },
   methods: {
     setScroll () {

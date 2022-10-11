@@ -79,6 +79,9 @@
         width: 100vw;
         height: 100vh;
         text-align: center;
+        display: grid;
+        place-content: center;
+        place-items: center;
       "
       >
         popup

@@ -4,7 +4,7 @@
         width: 100vw;
         background-color: red;
         padding: 0 24px;
-        grid-template-rows: 1fr 152px 300px 1fr 121px;
+        grid-template-rows: 1fr 152px 444px 1fr 121px;
         position: relative;
         overflow: auto;
         display: grid;
@@ -21,6 +21,10 @@
           background-color: blue;
         "
       >
+        <q-input label="keyboard" />
+        <q-input label="keyboard" />
+        <q-input label="keyboard" />
+        <q-input label="keyboard" />
         <q-input label="keyboard" />
         <q-input label="keyboard" />
         <q-input label="keyboard" />
@@ -55,11 +59,7 @@
 </template>
 
 <script>
-function setScreenSize () {
-  const vh = window.innerHeight * 0.01
-  document.documentElement.style.setProperty('--vh', `${vh}px`)
-}
-window.addEventListener('resize', () => setScreenSize())
+window.addEventListener('resize', () => this.setScreenSize())
 
 export default {
   name: "test1",

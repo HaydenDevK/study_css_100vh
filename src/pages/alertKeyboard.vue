@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
     <div>
       <button @click='alert("alert")'>Alert</button>
-      <q-input label="keyboard" />
+      <input label="keyboard" id="inputt"/>
     </div>
   </q-page>
 </template>
@@ -12,7 +12,9 @@ export default {
   name: "alertKeyboard",
   methods: {
     alert (message) {
-      document.querySelector('input').blur()
+      event.preventDefault()
+      const textField = document.getElementById("inputt")
+      textField.blur()
       alert(message)
     }
   }

@@ -13,8 +13,7 @@ export default {
   methods: {
     alert (message) {
       event.preventDefault()
-      const textField = document.getElementById("inputt")
-      textField.blur()
+      document.activeElement.blur()
       alert(message)
     }
   }

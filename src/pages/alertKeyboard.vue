@@ -14,7 +14,9 @@ export default {
     alert (message) {
       event.preventDefault()
       document.activeElement.blur()
-      alert(message)
+      setTimeout(() => {
+        alert('hi')
+      }, 100)
     }
   }
 }

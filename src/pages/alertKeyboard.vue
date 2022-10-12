@@ -12,6 +12,7 @@ export default {
   name: "alertKeyboard",
   methods: {
     alert (message) {
+      document.querySelector('input').blur()
       alert(message)
     }
   }
